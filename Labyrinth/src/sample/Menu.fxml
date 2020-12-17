@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="750.0" style="-fx-background-color: Pink;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu">
+   <children>
+      <Button fx:id="newGameBtn" blendMode="OVERLAY" layoutX="437.0" layoutY="137.0" mnemonicParsing="false" onAction="#showLevelSelect" text="New Game" />
+      <ComboBox fx:id="playerdd1" blendMode="OVERLAY" layoutX="14.0" layoutY="112.0" onAction="#updatePlayerCount" onMouseClicked="#showProfiles" prefWidth="150.0" promptText="Player 1" />
+      <Label fx:id="playerProfileLbl" layoutX="15.0" layoutY="341.0" text="Label" textFill="WHITE" />
+      <ComboBox fx:id="playerdd2" blendMode="OVERLAY" layoutX="14.0" layoutY="150.0" onAction="#updatePlayerCount" onMouseClicked="#showProfiles" prefWidth="150.0" promptText="Player 2" />
+      <ComboBox fx:id="playerdd3" blendMode="OVERLAY" layoutX="14.0" layoutY="188.0" onAction="#updatePlayerCount" onMouseClicked="#showProfiles" prefWidth="150.0" promptText="Player 3" />
+      <ComboBox fx:id="playerdd4" blendMode="OVERLAY" layoutX="14.0" layoutY="226.0" onAction="#updatePlayerCount" onMouseClicked="#showProfiles" prefWidth="150.0" promptText="Player 4" />
+      <TextField fx:id="newPlayerTxt" blendMode="LIGHTEN" layoutX="15.0" layoutY="268.0" promptText="Profile Name" />
+      <Button fx:id="createBtn" blendMode="OVERLAY" layoutX="164.0" layoutY="268.0" mnemonicParsing="false" onAction="#createProfile" text="Create Profile" />
+      <Button fx:id="loadGameBtn" blendMode="OVERLAY" layoutX="437.0" layoutY="176.0" mnemonicParsing="false" onAction="#showGameSelect" text="Load Game" />
+      <Label fx:id="playerCount" layoutX="502.0" layoutY="25.0" text="0 Players" textFill="WHITE" />
+      <Label fx:id="gTitle" layoutX="233.0" layoutY="14.0" text="Labyrinth" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="34.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="levelSelectCb" layoutX="226.0" layoutY="163.0" onAction="#chosenLevel" prefWidth="150.0" promptText="Select Level" visible="false" />
+      <Button fx:id="testBtn" blendMode="OVERLAY" layoutX="209.0" layoutY="337.0" mnemonicParsing="false" onAction="#showProfileTest" text="Test" />
+      <Button fx:id="clearBtn1" blendMode="OVERLAY" layoutX="164.0" layoutY="112.0" mnemonicParsing="false" onAction="#clearPlayerdd1" text="Clear" />
+      <Button fx:id="clearBtn2" blendMode="OVERLAY" layoutX="164.0" layoutY="150.0" mnemonicParsing="false" onAction="#clearPlayerdd2" text="Clear" />
+      <Button fx:id="clearBtn4" blendMode="OVERLAY" layoutX="164.0" layoutY="226.0" mnemonicParsing="false" onAction="#clearPlayerdd4" text="Clear" />
+      <Button fx:id="clearBtn3" blendMode="OVERLAY" layoutX="164.0" layoutY="188.0" mnemonicParsing="false" onAction="#clearPlayerdd3" text="Clear" />
+      <ComboBox fx:id="deleteProfiledd" blendMode="OVERLAY" layoutX="15.0" layoutY="309.0" onMouseClicked="#showProfiles" prefWidth="150.0" promptText="Player Profile" />
+      <Button fx:id="deleteProfileBtn" blendMode="OVERLAY" layoutX="165.0" layoutY="309.0" mnemonicParsing="false" onAction="#deletePlayerProfile" text="Delete Profile" />
+      <Button blendMode="OVERLAY" layoutX="437.0" layoutY="239.0" mnemonicParsing="false" onAction="#showLeader" text="Show Leaderboards" />
+      <Label fx:id="messageOfTheDay" layoutX="15.0" layoutY="369.0" text="Label" textFill="WHITE" />
+      <Button fx:id="saveGameBtn" blendMode="OVERLAY" layoutX="437.0" layoutY="281.0" mnemonicParsing="false" onAction="#save" text="Save Game" />
+      <Button fx:id="returnToGameBtn" blendMode="OVERLAY" layoutX="437.0" layoutY="316.0" mnemonicParsing="false" onAction="#returnToGame" text="Return To Game" />
+   </children>
+</AnchorPane>

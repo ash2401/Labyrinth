@@ -1,0 +1,6 @@
+2,2
+C:\Users\warre\Downloads\stick.png,FloorTile,true,true,true,true,true#C:\Users\warre\Downloads\stick.png,TheOtherFloorTile,true,true,true,true,true#!
+C:\Users\warre\Downloads\stick.png,TestOtherTile,true,true,true,true,true#!
+0,0,0,0,0,0,0
+LukeSkywalker,0,0,test.png!TheHandActionTile#
+0

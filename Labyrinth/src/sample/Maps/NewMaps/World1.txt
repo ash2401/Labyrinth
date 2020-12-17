@@ -1,0 +1,5 @@
+5,5
+8,8,12,2,2,3,5
+IMG/Corner-tile2.png,Corner,False,True,True,False,True,0,0#IMG/T-tile.png,TShape,False,True,True,True,True,2,0#IMG/Corner-tile3.png,Corner,False,True,False,True,True,4,0#IMG/Corner-tile2.png,Corner,False,True,True,False,True,0,2#IMG/goal-tile.png,Goal,True,True,True,True,True,2,2#IMG/Corner-tile4.png,Corner,True,False,False,True,True,4,0#IMG/Corner-tile1.png,Corner,True,False,True,False,True,0,4#IMG/Corner-tile4.png,Corner,True,False,False,True,True,2,4#IMG/Corner-tile4.png,Corner,True,False,False,True,True,4,4#!
+
+

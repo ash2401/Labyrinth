@@ -1,0 +1,3 @@
+6,6
+15,15,15,5,5,5,5  
+src\\sample\\IMG\\Corner-tile2,CornerTileTL,FALSE,TRUE,TRUE,FALSE,TRUE,0,0#src\\sample\\IMG\\Corner-tile3,CornerTileTR,FALSE,FALSE,TRUE,TRUE,TRUE,5,0#src\\sample\\IMG\\Corner-tile4,CornerTileBR,TRUE,FALSE,FALSE,TRUE,TRUE,5,5#src\\sample\\IMG\\Corner-tile1,CornerTileBL,TRUE,TRUE,FALSE,FALSE,TRUE,0,5#src\\sample\\IMG\\Corner-tile4,CornerTileBR,TRUE,FALSE,FALSE,TRUE,TRUE,5,5#src\\sample\\IMG\\Goal-tile,Goal,TRUE,TRUE,TRUE,TRUE,TRUE,3,3#!
